@@ -6,17 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2021-11-09T14:54:51.129Z",
-            "creator": {
-                "id": "bruno-morandiere",
-                "name": "bruno-morandiere"
-            },
-            "modified": "2021-11-09T14:54:54.938Z",
-            "purpose": "describing",
-            "type": "TextualBody",
-            "value": "toto"
-        },
-        {
             "created": "2021-11-09T14:54:58.883Z",
             "creator": {
                 "id": "bruno-morandiere",
@@ -28,25 +17,36 @@ order: 1
             "value": "bruno"
         },
         {
+            "created": "2021-11-09T15:03:26.037Z",
+            "creator": {
+                "id": "bruno-morandiere",
+                "name": "bruno-morandiere"
+            },
+            "modified": "2021-11-09T15:03:45.734Z",
+            "purpose": "editing",
             "type": "TextualBody",
-            "value": "Les conditions offertes par Ali-Pacha",
+            "value": "Les conditions offertes par Ali-Pacha"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Nouvelle information sur cette s\u00e9lection",
             "purpose": "editing",
             "creator": {
                 "id": "bruno-morandiere",
                 "name": "bruno-morandiere"
             },
-            "created": "2021-11-09T15:03:26.037Z",
-            "modified": "2021-11-09T15:03:45.734Z"
+            "created": "2021-11-10T09:02:45.131Z",
+            "modified": "2021-11-10T09:03:09.573Z"
         }
     ],
     "id": "04356906-6ba8-4f98-b0e5-6e8f69a76e3a.json",
     "target": {
-        "source": "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json",
         "selector": {
-            "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
             "value": "xywh=pixel:732.5673828125,332.90850830078125,1886.221435546875,128.96084594726562"
-        }
+        },
+        "source": "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json"
     },
     "type": "Annotation"
 }
