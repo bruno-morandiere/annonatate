@@ -3,39 +3,39 @@ canvas: "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adb
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "bruno",
-            "purpose": "tagging",
+            "created": "2021-11-10T09:03:40.449Z",
             "creator": {
                 "id": "bruno-morandiere",
                 "name": "bruno-morandiere"
             },
-            "created": "2021-11-10T09:03:40.449Z",
-            "modified": "2021-11-10T09:03:41.796Z"
+            "modified": "2021-11-10T09:03:41.796Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "bruno"
         },
         {
-            "type": "TextualBody",
-            "value": "Second s\u00e9lection",
-            "purpose": "editing",
+            "created": "2021-11-10T09:03:44.648Z",
             "creator": {
                 "id": "bruno-morandiere",
                 "name": "bruno-morandiere"
             },
-            "created": "2021-11-10T09:03:44.648Z",
-            "modified": "2021-11-10T09:03:52.334Z"
+            "modified": "2021-11-10T09:03:52.334Z",
+            "purpose": "editing",
+            "type": "TextualBody",
+            "value": "Second s\u00e9lection"
         }
     ],
+    "id": "ffa6a205-aea9-4253-a040-47948029bc60.json",
     "target": {
-        "source": "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json",
         "selector": {
-            "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
             "value": "xywh=pixel:623.1437377929688,914.8087768554688,2089.5811157226562,405.85040283203125"
-        }
+        },
+        "source": "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ffa6a205-aea9-4253-a040-47948029bc60.json"
+    "type": "Annotation"
 }
