@@ -1,0 +1,41 @@
+---
+canvas: "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "bruno",
+            "purpose": "tagging",
+            "creator": {
+                "id": "bruno-morandiere",
+                "name": "bruno-morandiere"
+            },
+            "created": "2021-11-10T09:03:40.449Z",
+            "modified": "2021-11-10T09:03:41.796Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Second s\u00e9lection",
+            "purpose": "editing",
+            "creator": {
+                "id": "bruno-morandiere",
+                "name": "bruno-morandiere"
+            },
+            "created": "2021-11-10T09:03:44.648Z",
+            "modified": "2021-11-10T09:03:52.334Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:623.1437377929688,914.8087768554688,2089.5811157226562,405.85040283203125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ffa6a205-aea9-4253-a040-47948029bc60.json"
+}
