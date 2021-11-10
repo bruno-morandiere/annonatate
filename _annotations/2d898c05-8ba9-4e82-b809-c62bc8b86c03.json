@@ -1,0 +1,29 @@
+---
+canvas: "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Troisi\u00e8me s\u00e9lection",
+            "purpose": "editing",
+            "creator": {
+                "id": "bruno-morandiere",
+                "name": "bruno-morandiere"
+            },
+            "created": "2021-11-10T09:06:36.527Z",
+            "modified": "2021-11-10T09:06:45.399Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.nakala.fr/iiif/10.34847/nkl.ad1bt4nl/b025d5648429b2174c2adbcdba4bd966c1afd5ac/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"936.850830078125,1385.7015380859375 651.4872436523438,1433.24072265625 638.3117065429688,1663.3740234375 2665.485595703125,1605.3157958984375 2685.688232421875,1324.044189453125 2089.595458984375,1292.6798095703125 1670.9764404296875,1323.851318359375 979.1626586914062,1333.25634765625 974.1494750976562,1331.628173828125\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2d898c05-8ba9-4e82-b809-c62bc8b86c03.json"
+}
